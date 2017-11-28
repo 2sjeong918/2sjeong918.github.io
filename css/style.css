@@ -24,7 +24,7 @@
 }
 
 body {
-  font-family: GonganR;
+  font-family: "GonganR", sans-serif;
   color: #3e3a39;
 }
 
@@ -32,7 +32,7 @@ html {
   font-size: 10px;
 }
 h2, h3 {
-  font-family: GonganB;
+  font-family: "GonganB", sans-serif;
 }
 
 .readable-hidden {
