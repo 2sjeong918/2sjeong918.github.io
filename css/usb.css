@@ -35,6 +35,32 @@
     height: 100vh;
     text-align: center;
   }
+  #order img{
+    float: right;
+    width: 50%;
+  }
+  .order-detail {
+    float: left;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  .order-detail p {
+    margin-bottom: 10px;
+  }
+  .order-detail button {
+    border: 3px solid #3e3a39;
+    border-radius: 0;
+    background: #fff;
+    font-family: GonganB;
+    color: #3e3a39;
+    position: absolute;
+    padding: 20px 10%;
+    bottom: 0;
+    cursor: pointer;
+  }
+  .order-detail button:hover {
+    background: #fff101;
+  }
 }
 
 /* 데스크탑 */
