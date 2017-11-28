@@ -92,6 +92,16 @@
 
 /* 와이드 스크린 대응 */
 @media all and (min-width:1500px){
+  .sub-title {
+    /* background: skyblue; */
+    font-size: 3.5rem;
+    float: left;
+    width: 40%;
+    position: relative;
+    /* left: -15%; */
+    text-align: center;
+    margin-top: 10px;
+  }
   .about-content {
     max-width: 1400px;
     margin: 0 auto;
@@ -110,7 +120,7 @@
     overflow: hidden;
   }
   .thumb-img {
-    width: 50%;
+    width: 35%;
     min-width: 700px;
     float: left;
     position: fixed;
