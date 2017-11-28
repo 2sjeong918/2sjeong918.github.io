@@ -28,10 +28,18 @@
 }
 
 
-
+/* 와이드 스크린 */
+@media all and (min-width:1500px){
+  .usb-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+    background: #fff;
+  }
+}
 
 /* 데스크탑 */
-@media screen and (min-width:800px){
+@media (min-width:800px) and (max-width: 1499px){
   #usb-intro, #order {
     height: 100vh;
     text-align: center;
