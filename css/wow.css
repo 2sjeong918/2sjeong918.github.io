@@ -21,7 +21,7 @@
 
 /* 와이드 스크린 대응 */
 
-@media all and (min-width:1500px){
+@media all and (min-width: 1500px){
   .sub-title {
     /* background: skyblue; */
     font-size: 3.5rem;
@@ -50,8 +50,8 @@
     overflow: hidden;
   }
   .wow-thumb-img {
-    width: 50%;
-    min-width: 600px;
+    /* width: 50%; */
+    min-width: 1000px;
     float: left;
     position: fixed;
     top: 50%;

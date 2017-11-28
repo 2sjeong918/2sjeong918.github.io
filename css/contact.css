@@ -35,7 +35,7 @@
   }
 }
 /* 데스크탑 */
-@media (min-width:800px) and (max-width:1499px){
+@media screen and (min-width:800px){
   #contact-intro{
     float: left;
     width: 50%;
