@@ -40,10 +40,12 @@
   }
   .wow-thumb-img {
     width: 50%;
+    min-width: 600px;
     float: left;
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
+    /* background: skyblue; */
   }
   .wow-thumb-img img{
     width: 20%;
@@ -63,12 +65,12 @@
   .wow-content p {
     text-align: left;
     font-size: 1.8rem;
-    line-height: 1.5;
+    line-height: 1.6;
     word-break: keep-all; 
     letter-spacing: -0.04em;
   }
   #main-poster img, #eve-festival img {
-    width: 100%;
+    width: 90%;
     box-shadow: 0px 10px 20px 0 rgba(0, 0, 0, 0.5);
   }
 }
@@ -117,7 +119,7 @@
   .wow-content p {
     text-align: left;
     font-size: 1.6rem;
-    line-height: 1.5;
+    line-height: 1.6;
     word-break: keep-all; 
   }
   #main-poster img, #eve-festival img {

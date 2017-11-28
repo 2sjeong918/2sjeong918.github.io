@@ -1,11 +1,16 @@
 @charset "utf-8";
 .usb-content-bg{
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../imgs/usb-bg.svg");
-  background-color: #fff;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                    url('data:image/svg+xml;utf8, <svg xmlns= "http://www.w3.org/2000/svg" viewBox="0 0 11.89 24.92"><defs><style>.cls-1{fill:#3e3a39;}</style></defs><title>usb-bg-m</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-1" points="5.94 0 0 12.46 5.94 24.92 11.89 12.46 5.94 0"/></g></g></svg>');
   background-position: top;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 2%;
+}
+.usb-content-bg-act{
+  background-image: url('data:image/svg+xml;utf8, <svg xmlns= "http://www.w3.org/2000/svg" viewBox="0 0 11.89 24.92"><defs><style>.cls-1{fill:#fff101;}</style></defs><title>usb-bg-m</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-1" points="5.94 0 0 12.46 5.94 24.92 11.89 12.46 5.94 0"/></g></g></svg>');
+  background-position: top;
+  background-attachment: fixed;
+  background-size: 2%;
 }
 .usb-content {
   max-width: 960px;
@@ -21,6 +26,8 @@
   font-family: GonganB;
 
 }
+
+
 
 
 /* 데스크탑 */
