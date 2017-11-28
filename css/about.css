@@ -9,11 +9,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-#intro, #wow, #committee, #sponsor {
-  height: 100vh;
-  text-align: center;
-  overflow: hidden;
-}
 .detail-content {
   position: relative;
   top: 50%;
@@ -24,7 +19,6 @@
   display: block;
   clear: both;
 }
-
 .about-content::after{
   content: '';
   display: block;
@@ -198,6 +192,6 @@
     text-align: left;
     word-break: keep-all; 
     float: left;
-    letter-spacing: -0.04em;
+    /* letter-spacing: -0.04em; */
   }
 }
