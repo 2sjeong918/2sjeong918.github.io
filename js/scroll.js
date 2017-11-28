@@ -33,8 +33,8 @@
       'triggerElement': trigger_el,
       'triggerHook': 0,
       // 'reverse': false,
-      'duration': 600,
-      'offset': -500
+      'duration': 700,
+      'offset': -800
     })
     .setClassToggle(trigger_el, 'fade-in')
     .addIndicators()
