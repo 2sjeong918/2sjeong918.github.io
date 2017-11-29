@@ -169,8 +169,8 @@
   }
   .thumb-img {
     width: 50%;
-    min-width: 700px;
-    max-width: 700px;
+    width: 700px;
+    /* max-width: 700px; */
     float: left;
     position: fixed;
     top: 50%;
