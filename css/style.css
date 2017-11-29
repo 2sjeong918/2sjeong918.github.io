@@ -24,7 +24,7 @@
 }
 
 body {
-  font-family: "GonganR", sans-serif;
+  font-family: GonganR;
   color: #3e3a39;
 }
 
@@ -32,7 +32,7 @@ html {
   font-size: 10px;
 }
 h2, h3 {
-  font-family: "GonganB", sans-serif;
+  font-family: GonganB;
 }
 
 .readable-hidden {
@@ -57,7 +57,7 @@ h2, h3 {
     position: fixed;
     z-index: 1000;
     height: 0;
-    /* background: skyblue; */
+    background: skyblue;
   }
   .logo {
     float: left;
@@ -92,13 +92,15 @@ h2, h3 {
   }
 
   .main-menu{
-    padding-top: 7%;
+    padding-top: 5%;
   }
   .main-menu li{
     padding: 1.3%;
   }
+  .tab li a:hover {
+    border-top-color: #fff101;
+  }
 }
-
 /* 모바일 */
 @media screen and (max-width:959px){
   header {
@@ -218,7 +220,7 @@ h2, h3 {
 .main-menu li{
   transform: translateX(100%);
   background-size: cover;
-  font-family: "GonganB", sans-serif;
+  font-family: GonganB;
   font-size: 4rem;
   /* padding: 1.3%; */
   margin-top: 1%;
@@ -331,18 +333,9 @@ main {
   color: #3e3a39;
   transition: all 0.2s ease-in-out;
 }
-.tab li a:hover {
-  border-top-color: #fff101;
-}
-.tab li .tab-act {
-  width: 30%;
-}
 
-.scroll-down {
-  font-size: 5rem;
-  position: absolute;
-  bottom: 12%;
-  cursor: pointer;
+.tab li .tab-act {
+  width: 35%;
 }
 
 footer {
