@@ -43,7 +43,7 @@
     text-align: left;
     /* background: skyblue; */
   }
-  #wow-intro, #keynote, #main-poster, #promotion-film, #eve-festival {
+  #wow-intro, #keynote, #main-poster, #promotion-film, #eve-festival, #eve-festival-img {
     height: 100vh;
     text-align: center;
     overflow: hidden;
