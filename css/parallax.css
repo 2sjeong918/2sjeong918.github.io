@@ -84,12 +84,12 @@
   @keyframes focusanimation {
     0% { 
       transform: rotate(0) ;
-      opacity: 0;
+      /* opacity: 0; */
     }
     100% { 
       transform: rotate(360deg) ;
       background-image: radial-gradient(#fff101 0%, #ffffff 50%);
-      opacity: 1;
+      /* opacity: 1; */
     }
   }
   .wow-thumb-img img{
