@@ -95,7 +95,7 @@ $(document).ready(
       scrollEvent = true;
       count++;
       $("html, body").stop().animate({scrollTop :sb*count},
-        {duration:800, complete: function () {
+        {duration:700, complete: function () {
           scrollEvent = false;
         }}
       );

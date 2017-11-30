@@ -3,6 +3,9 @@
 .menubar-container .menubar-w {
   background: #fff;
 }
+.films-content .tab-w li a{
+  border-top: 3px solid #fff;
+}
 .films-footer .fa{
   color: #fff;
 }

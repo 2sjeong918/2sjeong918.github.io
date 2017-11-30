@@ -100,13 +100,13 @@ h2, h3 {
     border-top-color: #fff101;
   }
   .menubar-container {
-  position: fixed;
-  width: 40px;
-  height: 60px;
-  top: 2%;
-  right: 5%;
-  overflow: hidden;
-}
+    position: fixed;
+    width: 40px;
+    height: 60px;
+    top: 2%;
+    right: 4%;
+    overflow: hidden;
+  }
 }
 /* 모바일 */
 @media screen and (max-width:959px){
