@@ -72,26 +72,6 @@ $(document).ready(
 
   
   // 스크롤 시 다음 화면
-  // var win_h = $(window).height();
-  //     console.log(win_h);
-  //   $('.scroll').each(function (index) {
-  //     console.log(index);
-  //     $(this).attr('data-index', win_h*index);
-  //   });
-  
-  //   $('.scroll').on('mousewheel', function (e) {
-  //     var scrollPos = parseInt($(this).attr('data-index'));
-  
-  //     if (e.originalEvent.wheelDelta >= 0) {
-  //       $("html, body").stop().animate({scrollTop :( scrollPos - win_h)}, 100);
-  //       return false;
-  //     }
-  //     if (e.originalEvent.wheelDelta < 0 ) {
-  //       $("html, body").stop().animate({scrollTop :(scrollPos + win_h)}, 100);
-  //       return false;
-  //     }
-  //   });
-
   var scrollEvent = false;
   var count = 0;
 
@@ -105,7 +85,7 @@ $(document).ready(
       scrollEvent = true;
       count--;
       $("html, body").stop().animate({scrollTop :sb*count},
-        {duration:500, complete: function () {
+        {duration:800, complete: function () {
           scrollEvent = false;
         }}
       );
@@ -115,7 +95,7 @@ $(document).ready(
       scrollEvent = true;
       count++;
       $("html, body").stop().animate({scrollTop :sb*count},
-        {duration:500, complete: function () {
+        {duration:800, complete: function () {
           scrollEvent = false;
         }}
       );
