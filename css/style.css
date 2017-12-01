@@ -359,3 +359,92 @@ footer .fa {
   margin-right: 15px;
   color: #3e3a39;
 }
+
+
+/*  */
+
+body, html {
+  margin: 0;
+  overflow: hidden;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+
+body, .onepage-wrapper, html {
+  display: block;
+  position: static;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.onepage-wrapper {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  padding: 0;
+  -webkit-transform-style: preserve-3d;
+}
+
+.onepage-wrapper .ops-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.onepage-pagination {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-70%);
+  z-index: 100;
+  width: 20%;
+}
+.onepage-pagination li {
+  margin-top: 10px;
+}
+.onepage-pagination li a{
+  display: block;
+  width: 20%;
+  padding-top: 10px;
+  border-top: 3px solid #3e3a39;
+  text-decoration: none;
+  color: #3e3a39;
+  transition: all 0.2s ease-in-out;
+  
+}
+.films-body .onepage-pagination li a{
+  border-top: 3px solid #ffffff;
+}
+.onepage-pagination li a.active{
+  width: 30%;
+}
+.onepage-pagination li a:hover {
+  border-top: 3px solid #fff101;
+}
+.disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
+  overflow: auto;
+}
+
+.disabled-onepage-scroll .onepage-wrapper .ops-section {
+  position: relative !important;
+  top: auto !important;
+}
+.disabled-onepage-scroll .onepage-wrapper {
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  transform: none !important;
+  -ms-transform: none !important;
+  min-height: 100vh;
+}
+
+
+.disabled-onepage-scroll .onepage-pagination {
+  display: none;
+}
+
+body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
+  position: inherit;
+}
